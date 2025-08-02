@@ -1,0 +1,5 @@
+def iseven(a): 
+return a%2==0 
+n=[35,6,7,9] 
+even=list(filter(iseven,n)) 
+print(even) 
