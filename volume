@@ -1,0 +1,8 @@
+import math pi=math.pi  
+print(pi) 
+def volume(r): 
+      c=4/3*pi*(r*r*r) 
+      return c 
+print(volume (a))  
+a=float(input("enter radius:")) 
+print(volume (a))
