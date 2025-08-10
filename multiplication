@@ -1,0 +1,7 @@
+def multiply(x,y,z):  
+      c=x*y*z
+      return c  
+l=int(input("enter a number:"))  
+m=int(input("enter a number:"))  
+n=int(input("enter a number:"))  
+print(multiply(l,m,n))
