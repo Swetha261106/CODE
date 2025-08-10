@@ -1,0 +1,14 @@
+x=[3,5,6]  
+y=[3,5,6]  
+z=x  
+c=3  
+print(x is y)  
+print(x is z)  
+print(x==y)  
+print(x is not у)  
+print(c in x)  
+print(c in y)  
+print(c in z) 
+colours=["red","white","blue","brown"]  
+print("red" in colours ) 
+print("blue"not in colours)
