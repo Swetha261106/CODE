@@ -1,0 +1,17 @@
+a=10  
+c=3  
+def show():  
+    a=5  
+    print(a)  
+    print(c) 
+show()  
+a=10  
+c=3  
+def show():  
+    b=5  
+    print(b)  
+    print(c)  
+show()  
+print(a)  
+print(b)  
+print(c)
