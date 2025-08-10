@@ -1,0 +1,12 @@
+def calculate(a,b,operation="add"):
+if operation=="add": 
+    return a+b 
+elif operation=="sub": 
+    return a-b 
+elif operation=="mul":  
+    return a*b  
+else:  
+    return ("unknown operation") 
+print(calculate(5,2,"sub"))  
+print(calculate(5,2)) 
+print(calculate(5,2,"mul"))
