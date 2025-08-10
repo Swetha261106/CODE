@@ -1,0 +1,6 @@
+def add(*args): 
+    s=0 
+    for i in args:
+        s=s+i 
+        return s 
+print(add(3,4,5,8,6))
