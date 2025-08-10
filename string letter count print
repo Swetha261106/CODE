@@ -1,0 +1,6 @@
+s=input("Enter a string:") 
+e = ""   
+for i in s:  
+    if i not in e:  
+        print("count of", i, "is", .count(i)) 
+        e +=i
