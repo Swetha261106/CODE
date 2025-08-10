@@ -1,0 +1,12 @@
+sub=input("enter subject:")  
+mark=int(input("enter marks:"))  
+if sub=="math" or sub=="Math":  
+      if mark>=50: 
+          print("pass") 
+      else:  
+          print("fail")  
+else:  
+      if mark>=40:  
+          print("pass")  
+      else:  
+          print("fail")
