@@ -1,0 +1,5 @@
+from collections import Counter  
+cnt=Counter()  
+for word in ['red','blue','green','red' ,'blue','red']:  
+    cnt[word]+=1  
+    print(cnt)
