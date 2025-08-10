@@ -1,0 +1,2 @@
+s="xneifowxjaifuenxna"  
+print(s.find('w'))
