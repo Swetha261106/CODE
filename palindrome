@@ -1,0 +1,13 @@
+def rev(w1,w2):  
+if len(w1) != len(w2):  
+    return False  
+    i=0  
+    j=len(w2)-1 
+    while j>=0:  
+        print(i,j)  
+        if w1[i] != w2[j]:  
+            return False  
+            i=i+1  
+            j=j-1  
+            return True  
+            print(rev("post","stop"))
