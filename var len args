@@ -1,0 +1,4 @@
+def student (**kwargs):  
+      for key,values in kwargs.items():  
+          print(f"{key}:{values}")  \
+student(name="KRISHNA",age=25)
